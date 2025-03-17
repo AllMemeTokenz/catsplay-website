@@ -121,7 +121,7 @@ export default function HomePage() {
           </section>
         )}
         {/* Chart Section */}
-        <section className="w-full flex mb-5 lg:mb-0 lg:mt-0 flex-col items-center justify-between lg:px-[111px] px-5 xl:px-[190px]">
+        {/* <section className="w-full flex mb-5 lg:mb-0 lg:mt-0 flex-col items-center justify-between lg:px-[111px] px-5 xl:px-[190px]">
           <div className="flex my-10 xl:mx-9 w-full flex-col items-center justify-center">
             <h2 className="text-3xl font-bold mb-8 text-center text-blue-950">
               $CatsPlay Chart
@@ -140,7 +140,7 @@ export default function HomePage() {
               </div>
             </div>
           </div>
-        </section>
+        </section> */}
         <TeamSection />
         <NFTGallery />
         <FaqSection />
