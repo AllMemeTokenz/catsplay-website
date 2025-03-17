@@ -8,7 +8,7 @@ import config, { tokenCA, telegramLink } from "@/config";
 export default function TokenomicsPage() {
   // Use the tokenCA from the imported config
   const pumpFunLink =
-    tokenCA && tokenCA !== "7RBeTk836UX49CaaxLFkoo1Fmw5vCa58CghpCYYitJEt"
+    tokenCA && tokenCA !== "B2gKfZR6AS8CPio7R3Gj7ZYHgPvQd2z3KAeHvGeJpUmp"
       ? `https://pump.fun/coin/${tokenCA}`
       : undefined;
 
