@@ -120,27 +120,6 @@ export default function HomePage() {
             </div>
           </section>
         )}
-        {/* Chart Section */}
-        {/* <section className="w-full flex mb-5 lg:mb-0 lg:mt-0 flex-col items-center justify-between lg:px-[111px] px-5 xl:px-[190px]">
-          <div className="flex my-10 xl:mx-9 w-full flex-col items-center justify-center">
-            <h2 className="text-3xl font-bold mb-8 text-center text-blue-950">
-              $CatsPlay Chart
-            </h2>
-
-            <div className="w-full  border-2 border-[#9e782c] shadow-[3px_3px_0_#9e782c] rounded-xl overflow-hidden bg-amber-100">
-              <h3 className="text-xl font-semibold p-4 text-center text-blue-950 border-b border-[#9e782c]">
-                Live Price Chart
-              </h3>
-              <div className="relative w-full" style={{ paddingBottom: "65%" }}>
-                <iframe
-                  src="https://dexscreener.com/solana/GUPWMTmx6xQeeQPUstU86D5Pv1zjta2vmNXS6uoJkw4E?embed=1&loadChartSettings=0&trades=0&tabs=0&info=0&chartLeftToolbar=0&chartTheme=dark&theme=dark&chartStyle=1&chartType=usd&interval=5"
-                  className="absolute inset-0 w-full h-full border-0"
-                  title="DexScreener Chart"
-                ></iframe>
-              </div>
-            </div>
-          </div>
-        </section> */}
         <TeamSection />
         <NFTGallery />
         <FaqSection />
